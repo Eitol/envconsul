@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	cfg "github.com/hashicorp/envconsul/config"
+	cfg "github.com/Eitol/envconsul/config"
 	"io"
 	"io/ioutil"
 	"log"
@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Eitol/envconsul/version"
 	"github.com/hashicorp/consul-template/config"
 	"github.com/hashicorp/consul-template/logging"
 	"github.com/hashicorp/consul-template/manager"
 	"github.com/hashicorp/consul-template/signals"
-	"github.com/hashicorp/envconsul/version"
 )
 
 // Exit codes are int values that represent an exit code for a particular error.

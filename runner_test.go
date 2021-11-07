@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	config2 "github.com/hashicorp/envconsul/config"
+	config2 "github.com/Eitol/envconsul/config"
 	"reflect"
 	"testing"
 

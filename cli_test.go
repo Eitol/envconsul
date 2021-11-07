@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	cfg "github.com/hashicorp/envconsul/config"
+	cfg "github.com/Eitol/envconsul/config"
 	"io/ioutil"
 	"os"
 	"reflect"

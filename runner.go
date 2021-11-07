@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	config2 "github.com/hashicorp/envconsul/config"
+	config2 "github.com/Eitol/envconsul/config"
 	"html/template"
 	"io"
 	"log"
